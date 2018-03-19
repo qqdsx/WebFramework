@@ -1,8 +1,4 @@
 
-/**
- * Created by jack on 2017/5/22.
- * 提供相关常量配置项
- */
 public interface ConfigConstant {
     String CONFIG_FILE="smart.properties";
     String JDBC_DRIVER="smart.framework.jdbc.driver";

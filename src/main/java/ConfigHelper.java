@@ -3,10 +3,7 @@ import Util.PropsUtil;
 
 import java.util.Properties;
 
-/**
- * Created by jack on 2017/5/22.
- * 属性文件助手类
- */
+
 public class ConfigHelper {
     private static final Properties CONFIG_PROPS = PropsUtil.loadProps(ConfigConstant.CONFIG_FILE);
     /**

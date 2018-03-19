@@ -2,10 +2,7 @@ package Util;
 
 import org.apache.commons.lang3.StringUtils;
 
-/**
- * Created by jack on 2017/5/22.
- * 转型操作工具类
- */
+
 public class CastUtil {
     /*
     * 转为String型
