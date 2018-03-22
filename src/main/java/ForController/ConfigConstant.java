@@ -1,3 +1,4 @@
+package ForController;
 
 public interface ConfigConstant {
     String CONFIG_FILE="smart.properties";

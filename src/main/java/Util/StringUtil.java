@@ -19,4 +19,7 @@ public class StringUtil {
     public static boolean isNotEmpty(String str){
         return !isEmpty(str);
     }
+    public static String [] splitString (String pattern,String s) {
+        return pattern.split("s");
+    }
 }

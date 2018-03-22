@@ -1,4 +1,6 @@
+package Helper;
 
+import ForController.ConfigConstant;
 import Util.PropsUtil;
 
 import java.util.Properties;
@@ -16,36 +18,36 @@ public class ConfigHelper {
      * 获取JDBC URL
      */
     public static String getJdbcUrl(){
-        return PropsUtil.getString(CONFIG_PROPS,ConfigConstant.JDBC_URL);
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.JDBC_URL);
     }
     /**
      * 获取JDBC 用户名
      */
     public static String getJdbcUsername(){
-        return PropsUtil.getString(CONFIG_PROPS,ConfigConstant.JDBC_USERNAME);
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.JDBC_USERNAME);
     }
     /**
      * 获取JDBC 密码
      */
     public static String getJdbcPassword(){
-        return PropsUtil.getString(CONFIG_PROPS,ConfigConstant.JDBC_PASSWORD);
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.JDBC_PASSWORD);
     }
     /**
      * 获取应用基础包名
      */
     public static String getAppBasePackage(){
-        return PropsUtil.getString(CONFIG_PROPS,ConfigConstant.APP_BASE_PACKAGE);
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_BASE_PACKAGE);
     }
     /**
      * 获取应用jsp路径
      */
     public static String getAppJspPath(){
-        return PropsUtil.getString(CONFIG_PROPS,ConfigConstant.APP_JSP_PATH,"/WEB-INF/view");
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_JSP_PATH,"/WEB-INF/view");
     }
     /**
      * 获取应用静态资源路径
      */
     public static String getAppAssetPath(){
-        return PropsUtil.getString(CONFIG_PROPS,ConfigConstant.APP_ASSET_PATH,"/asset");
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_ASSET_PATH,"/asset");
     }
 }
